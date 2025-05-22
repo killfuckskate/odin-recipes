@@ -1,0 +1,1 @@
+This is an Odin project teaching me how to create a main page and links to and from the main to other pages within the same project.
