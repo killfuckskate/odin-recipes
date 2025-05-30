@@ -6,8 +6,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid rgb(255, 160, 160);
-    background-color: red;    
 }
 h1 {
     display: block;
@@ -20,25 +18,37 @@ h1 {
     font-size: 40px;
     padding: 10px;
 }
-ul,
-li {
-    display: flex;
-    flex-flow: wrap column;
+ul {
+    display: block;
     width: fit-content;
-    justify-content: space-around;
-    padding: 2px;
     border: 2px solid yellow;
     margin: 5px;
+    background-color: brown;
+}
+li { 
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     background-color: brown;
-    flex: 2;
 }
 li :hover{  
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    background-color: rgb(75, 245, 7);  
+    background-color: rgb(75, 245, 7);
+    color: rgb(255, 255, 255);  
+}
+.lasagna {
+    margin: 5px;
+}
+.hamburger {
+    margin: 5px;
+}
+.bacon-pasta {
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+    color: rgb(16, 184, 114);
 }
 
 

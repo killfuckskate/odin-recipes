@@ -3,24 +3,20 @@
 * ::after {
     box-sizing: border-box;
 }
-
 * {
     margin: 0px;
     padding: 0px;
-    border:10px;
     background-color: rgb(228, 198, 198);
 }
 .link{
     }
 button {
-    display: flex;
+    display: block;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: 800;
-    height: auto;
-    width: auto;
-    border: 2px solid rgb(0, 0, 0);
-    margin: 10px 0px;
+    margin: 10px 2px;
+    border: 0px;
 }
 button :hover {
     font-family: 'Courier New', Courier, monospace;
@@ -28,7 +24,6 @@ button :hover {
     background-color: aqua;
     display: block;
 }
-
 h1 {
     display: block;
     height: auto;
@@ -43,8 +38,8 @@ h1 {
     }
 a {
     text-decoration: none;
+    color:#e97b21
 }
-
 .opener {
     display: block;
     height: auto;
@@ -63,23 +58,23 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     background-color: pink;
-    color: rgb(160, 160, 160);
+    color: rgb(148, 72, 72);
     text-align: left;
     border-top: 2px solid rgb(0, 0, 0);
     border-right: 2px solid rgb(0, 0, 0);
     border-left: 2px solid rgb(0, 0, 0);
     }
 ul {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(167, 5, 100);
     border: 2px solid rgb(0, 0, 0);
 }
 ul > li {
      background-color: rgb(160, 160, 160);
     list-style: none;
     margin: 5px 2px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(167, 5, 100);
 }
 h3 {
     display: block;
@@ -87,7 +82,7 @@ h3 {
     width: fit-content;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    background-color: rgb(61, 167, 101);
+    background-color: rgb(32, 46, 37);
     color: rgb(160, 160, 160);
     text-align: left;
     border-left: 2px solid rgb(0, 0, 0);
@@ -100,14 +95,11 @@ ol{
 ol > li {
     display: list-item;
     list-style: numbers inside;
-    background-color: rgb(130, 130, 130);
-    color: hsl(101, 82%, 48%);
+    background-color: rgb(120, 113, 179);
+    color: hsl(101, 88%, 20%);
     font-size: 20px;
     margin: 5px 2px;
 }    
-li {
-   
-}
-    img {
+img {
     padding-left: 2px;    
 }
